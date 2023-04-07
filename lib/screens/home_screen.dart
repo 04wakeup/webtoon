@@ -6,10 +6,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         elevation: 1,
-        backgroundColor: Colors.white,
+        backgroundColor: const Color.fromRGBO(255, 255, 255, 1),
         foregroundColor: Colors.green,
         title: const Text(
           'Today Webtoon',
